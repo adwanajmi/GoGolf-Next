@@ -1,0 +1,4 @@
+ALTER TABLE clubs ADD COLUMN operating_info TEXT;
+ALTER TABLE clubs ADD COLUMN contact_info TEXT;
+ALTER TABLE clubs ADD COLUMN cancel_hours INTEGER NOT NULL DEFAULT 24 CHECK(cancel_hours BETWEEN 0 AND 168);
+ALTER TABLE clubs ADD COLUMN booking_enabled INTEGER NOT NULL DEFAULT 1 CHECK(booking_enabled IN (0,1));

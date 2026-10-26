@@ -1,13 +1,11 @@
 # GoGolf Next design direction
 
-The new app carries forward GoGolf's dark navy identity and the golf setting, while replacing the old Ionic screens with a calm clubhouse interface. It is a local demo for golfers and club staff who need to see tee time availability, understand a booking price, and manage a small tee sheet.
+The new app uses KDE as its identity anchor. Its course photograph, logo, and 18-hole layout come from the historical GoGolf FYP. They are presented as preserved references, with sample booking inventory clearly labelled as demo data.
 
-- **Identity:** a contemporary golf clubhouse, with the tee sheet and scorecard as recurring visual references.
-- **Personality:** assured, practical, warm, and quiet. Avoid luxury clichés and marketing claims.
-- **Palette:** deep navy `#122531`, fairway green `#205a45`, lime `#d8e8ad`, warm paper `#f6f5ef`, and charcoal text `#1d2b2a`.
-- **Typography:** a sturdy sans serif for controls and a restrained serif for large editorial headings. Use system fallbacks so the app works offline.
-- **Motif:** fine course contour lines, scorecard rules, and small numbered markers. These organize information rather than decorate every element.
-- **Layout:** a compact rail on desktop and a bottom navigation on phones; roomy page content with a strong primary panel and varied secondary sections.
-- **Dials:** ENERGY 2 / RHYTHM 3 / MOTION 1. Motion is limited to focus, selection, and brief state transitions.
+- **Personality:** practical, calm, and specific to golf. Avoid generic dashboard tiles and invented club claims.
+- **Palette:** deep navy `#122531`, fairway green `#205a45`, warm paper `#f6f5ef`, charcoal `#1d2b2a`, and a restrained KDE-inspired gold accent.
+- **Typography:** restrained serif headings and readable sans-serif controls with system fallbacks.
+- **Structure:** public discovery, course/layout, tee sheet, review discussion, personal account, and protected admin workspace. Desktop uses a broad content canvas; smaller screens stack panels and keep navigation reachable.
+- **Interaction:** clear selected dates and slots, visible remaining capacity and totals, saved status labels, form feedback, zoomable layout, keyboard dismissal of the layout dialog, and reduced-motion support.
 
-The old golf course diagram is a reference for the subject matter, not a reusable hero graphic. Prices, rounds, and news in this version are explicitly demo content.
+Anti-slop checks were applied while building each screen: each section serves a task, historical assets have provenance, data claims are qualified, and decorative elements are kept secondary to booking and management controls.

@@ -5,6 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "api": "node server/index.mjs",
+    "admin:create": "node server/create-admin.mjs",
+    "admin:grant": "node server/grant-admin.mjs",
+    "test:api": "node --test server/*.test.mjs",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview"
