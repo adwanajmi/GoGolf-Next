@@ -7,13 +7,13 @@ A separate local rebuild of the GoGolf final year project, centred on Kelab Daru
 Requires Node.js 24. Keep both commands running in separate terminals:
 
 ```powershell
-cd C:\Users\man010\Downloads\GoGolf-Next
+cd GoGolf-Next
 npm install
 npm run api
 ```
 
 ```powershell
-cd C:\Users\man010\Downloads\GoGolf-Next
+cd GoGolf-Next
 npm run dev -- --host 127.0.0.1 --port 8200
 ```
 
